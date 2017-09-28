@@ -1,20 +1,168 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>CV - Ilya Labacheuski</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="css/style.css" rel="stylesheet">
-  </head>
-  <body>
+
+<head>
+  <title>CV - Ilya Labacheuski</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="format-detection" content="telephone=no">
+  <link href="css/style.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+</head>
+
+<body>
+  <div class="cv">
     <header>
-      <div class="container">
-        <img src="./img/photo.png" alt="Ilya Labacheuski's photo">
+      <div class="flex justify-between">
+        <div class="left-pane flex">
+          <div class="photo">
+            <img class="round" src="./img/photo.png" alt="Ilya Labacheuski's photo">
+          </div>
+          <div class="title">
+            <h1 class="fullname">Ilya Labacheuski</h1>
+            <h3 class="color-primary">Software Developer</h3>
+            <h4>Two years experience in full-stack javascript programming.</h4>
+          </div>
+        </div>
+        <div class="right-pane">
+          <div class="contacts text-right">
+            <span class="contact">
+              <a href="tel:+375333648822" rel="nofollow">+375 33 364-88-22</a>
+              <i class="icon-mobile2"></i>
+            </span>
+            <span class="contact">
+              <a href="mailto:ilya.labacheuski@gmail.com" rel="nofollow">ilya.labacheuski@gmail.com</a>
+              <i class="icon-envelop"></i>
+            </span>
+            <span class="contact">
+              <a href="callto:ilya.labacheuski@gmail.com" rel="nofollow">ilya.labacheuski@gmail.com</a>
+              <i class="icon-skype"></i>
+            </span>
+            <span class="contact">
+              <a href="https://www.linkedin.com/in/ilabacheuski">www.linkedin.com/in/ilabacheuski</a>
+              <i class="icon-linkedin"></i>
+            </span>
+            <span class="contact">
+              <a href="https://www.github.com/ilabacheuski">www.github.com/ilabacheuski</a>
+              <i class="icon-github"></i>
+            </span>
+            <span class="contact">
+              <a href="https://yandex.com/maps/-/CBUgBRA39D">Brest, Belarus</a>
+              <i class="icon-location"></i>
+            </span>
+          </div>
+        </div>
       </div>
     </header>
+    <section class="skills">
+      <h3 class="uppercase">Skills</h3>
+      <hr>
+      <div class="flex flex-wrap color-white">
+        <div class="skill">vuejs</div>
+        <div class="skill">react-native</div>
+        <div class="skill">react</div>
+        <div class="skill">node</div>
+        <div class="skill">express</div>
+        <div class="skill">koa</div>
+        <div class="skill">graphql</div>
+        <div class="skill">apollo graphql</div>
+        <div class="skill">cordova</div>
+        <div class="skill">CI/CD</div>
+        <div class="skill">webpack</div>
+        <div class="skill">gulp</div>
+        <div class="skill">es6+</div>
+      </div>
+    </section>
+    <section class="work-experience">
+      <h3 class="uppercase">Work experience</h3>
+      <hr>
+      <section class="work">
+        <section>
+          <p class="role">Freelance Web/Mobile Development</p>
+          <p class="company">Self entrepreneur</p>
+        </section>
+        <section class="work-date-place flex color-primary italic">
+          <p class="period">
+            <span class="from">08/2017</span>
+            <span>-</span>
+            <span class="to">Present</span>
+          </p>
+          <p class="place">Brest, Belarus</p>
+        </section>
+        <section class="achievements">
+          <p>Achievements/Tasks</p>
+          <ul>
+            <li>The full-stack development of mobile app with React-native, Apollo GraphQL client, koa-server, Mongo DB, JWT
+              authentication.Middle size project with functions: profile, social-networking, geolocation, chat.</li>
+            <li>Basic scripting for deploy. `npm version` updates version of Gradle and ios bundle. Commit to branch with tag.
+              The preparation for CI/CD</li>
+            <li>Testing GraphQL server with Jest</li>
+          </ul>
+        </section>
+      </section>
+      <section class="work">
+        <section>
+          <p class="role">Software Developer</p>
+          <p class="company">Abramuk B.V. self-entrepreneur</p>
+        </section>
+        <section class="work-date-place flex color-primary italic">
+          <p class="period">
+            <span class="from">05/2015</span>
+            <span>-</span>
+            <span class="to">08-2017</span>
+          </p>
+          <p class="place">Brest, Belarus</p>
+        </section>
+        <section class="achievements">
+          <p>Achievements/Tasks</p>
+          <ul>
+            <li>Migration to full-stack javascript development</li>
+            <li>Working with HTTP REST API for server backend with express js framework</li>
+            <li>Development small-middle size applications with Cordova for cross-platform web/mobile applications</li>
+            <li>1C:Enterprise development. Version 7 and version 8</li>
+          </ul>
+        </section>
+      </section>
+    </section>
+    <section class="Education">
+      <h3 class="uppercase">Education</h3>
+      <hr>
+      <ul>
+        <li>
+          <p class="university-name">Ravensburg-Weingarten University of Applied Sciences</p>
+          <p class="degree">Master of Science - MS</p>
+          <p class="period">
+            <span class="from">2004</span>
+            <span>-</span>
+            <span class="to">2006</span>
+          </p>
+        </li>
+        <li>
+          <p class="university-name">Special faculty of business and information technologies of Belarusian State University </p>
+          <p class="degree">Bachelor's degree</p>
+          <p class="period">
+            <span class="from">2001</span>
+            <span>-</span>
+            <span class="to">2003</span>
+          </p>
+        </li>
+        <li>
+          <p class="university-name">Brest State Technical University</p>
+          <p class="degree">Engineer's degree</p>
+          <p class="period">
+            <span class="from">1998</span>
+            <span>-</span>
+            <span class="to">2003</span>
+          </p>
+        </li>
+      </ul>
+    </section>
+  </div>
+  <script id="__bs_script__">
+    //<![CDATA[
+    document.write("<script async src='http://HOST:3000/browser-sync/browser-sync-client.js?v=2.18.13'><\/script>".replace("HOST", location.hostname || 'localhost'));
+      //]]>
+  </script>
+</body>
 
-    <script id="__bs_script__">//<![CDATA[
-      document.write("<script async src='http://HOST:3000/browser-sync/browser-sync-client.js?v=2.18.13'><\/script>".replace("HOST", location.hostname || 'localhost'));
-  //]]></script>
-  </body>
 </html>

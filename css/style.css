@@ -1,0 +1,213 @@
+body {
+  font-family: 'Ubuntu', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  padding: 5px;
+}
+
+.round {
+  border-radius: 50%;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.no-shrink {
+  flex-shrink: 0;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+.justify-end {
+  justify-content: flex-end;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.cv {
+  margin: auto;
+  padding: 24px;
+  width: 900px;
+}
+
+.title {
+  padding-left: 24px;
+  padding-top: 12px;
+  max-width: 350px;
+}
+
+.color-primary {
+  color: #2980b9;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.color-white {
+  color:white;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.contact i {
+  color: #2980b9;
+  text-align: center;
+}
+
+.contact {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-bottom: 12px;
+}
+
+.contact a {
+  padding-right: 12px;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+header {
+  padding-bottom: 12px;
+}
+
+.skill {
+  display: inline-block;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 8px;
+  padding-right: 8px;
+  background-color: #2980b9;
+  margin-right: 8px;
+  margin-bottom: 8px;
+  border-radius: 4px;
+}
+
+.skill:first-child {
+  margin-left: 0;
+}
+
+.skill:last-child {
+  margin-right: 0;
+}
+
+/* generated font */
+@font-face {
+  font-family: 'icomoon';
+  src:  url('/fonts/icomoon.eot?e8y5ga');
+  src:  url('/fonts/icomoon.eot?e8y5ga#iefix') format('embedded-opentype'),
+    url('/fonts/icomoon.ttf?e8y5ga') format('truetype'),
+    url('/fonts/icomoon.woff?e8y5ga') format('woff'),
+    url('/fonts/icomoon.svg?e8y5ga#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-envelop:before {
+  content: "\e945";
+}
+.icon-location:before {
+  content: "\e947";
+}
+.icon-mobile2:before {
+  content: "\e959";
+}
+.icon-github:before {
+  content: "\eab0";
+}
+.icon-skype:before {
+  content: "\eac5";
+}
+.icon-linkedin:before {
+  content: "\eac9";
+}
+
+.period {
+  color: #2980b9;
+  font-style: italic;
+}
+
+.period span:nth-child(even){
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+.work-date-place {
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+
+.work-date-place p{
+  margin: 0;
+}
+
+.work-date-place p:first-child{
+  margin-right: 24px;
+}
+
+li {
+  padding-bottom: 12px;
+}
+
+.work {
+  padding-bottom: 24px;
+}
+
+.role {
+  font-size: 18px;
+  font-weight: bolder;
+  padding-bottom: 6px;
+  margin: 0;
+}
+
+.company {
+  font-size: 16px;
+  font-weight: bolder;
+  padding-bottom: 6px;
+  margin: 0;
+}
+
+li p {
+  padding-bottom: 6px;
+}
